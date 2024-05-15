@@ -39,7 +39,7 @@ export default function Favorites() {
     <div className="from-opacity-15 to-opacity-15 bg-gradient-to-t from-opacity-40 to-opacity-40 bg-gray-600 bg-blend-multiply min-h-screen">
       <NavbarHome />
       <div className="container mx-auto p-8">
-        <h1 className="text-4xl text-white font-bold mb-6 mt-10 text-center">
+        <h1 className="text-4xl text-white font-bold mb-6 mt-16 text-center">
           Watch Later List
         </h1>
         {watchLaterList.length > 0 && (
